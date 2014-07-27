@@ -15,7 +15,7 @@ Rocks rock;
 
 	@Override
 	public boolean activate() {
-	return ctx.backpack.select().count()==28;
+		return ctx.backpack.select().count() == 28;
 	}
 
 	@Override
